@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512" role="img" aria-label="Atlas Software">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0b2545"/><stop offset=".55" stop-color="#0d5a68"/><stop offset="1" stop-color="#0e7c74"/></linearGradient>
+    <linearGradient id="leg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#4fd1c5"/><stop offset="1" stop-color="#27a99f"/></linearGradient>
+    <linearGradient id="orb" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#4fd1c5"/><stop offset="1" stop-color="#f5a623"/></linearGradient>
+  </defs>
+  <rect width="512" height="512" rx="116" fill="url(#bg)"/>
+  <rect x="6" y="6" width="500" height="500" rx="110" fill="none" stroke="#ffffff" stroke-opacity=".10" stroke-width="3"/>
+  <g transform="translate(256 312) rotate(-16)"><path d="M-196 0 A196 66 0 0 1 196 0" fill="none" stroke="url(#orb)" stroke-width="12" stroke-linecap="round" opacity=".75"/></g>
+  <path d="M180 322 H332" fill="none" stroke="#f5a623" stroke-width="36" stroke-linecap="round"/>
+  <path d="M256 92 L146 404" fill="none" stroke="#ffffff" stroke-width="58" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M256 92 L366 404" fill="none" stroke="url(#leg)" stroke-width="58" stroke-linecap="round" stroke-linejoin="round"/>
+  <g transform="translate(256 312) rotate(-16)"><path d="M-196 0 A196 66 0 0 0 196 0" fill="none" stroke="url(#orb)" stroke-width="12" stroke-linecap="round"/><circle cx="196" cy="0" r="24" fill="#f5a623" stroke="#0b2545" stroke-width="10"/></g>
+</svg>
