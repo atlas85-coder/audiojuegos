@@ -153,6 +153,15 @@ a { color: var(--acento); }
   color: var(--tinta);
 }
 .juegos a:hover { border-color: var(--acento); }
+.juego-info { display: block; margin-top: 0.25rem; font-size: 1rem; font-weight: 400; color: var(--suave); }
+
+/* Página de MILÉSIMA */
+.marca-juego { margin-bottom: 1rem; }
+.volver { margin: 0 0 2rem; font-size: 1rem; }
+.senales { display: grid; gap: 0.75rem; margin: 1rem 0 0; padding: 0; list-style: none; }
+.senales li { padding: 1rem 1.25rem; background: var(--tarjeta); border: 1px solid var(--borde); border-radius: 0.9rem; }
+.senales strong, .senales span { display: block; }
+.senales strong { color: var(--acento); }
 
 /* Verificación */
 .tabla-datos { overflow-x: auto; }
@@ -178,4 +187,5 @@ dl.version dd { margin: 0; }
 
 @media (min-width: 40rem) {
   .descargas { grid-template-columns: 1fr 1fr; }
+  .senales { grid-template-columns: repeat(3, minmax(0, 1fr)); }
 }
